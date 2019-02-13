@@ -1,33 +1,29 @@
-# jemdoc: menu{MENU}{index.html}, nofooter  
-==Jian Wu
+# jemdoc: menu{MENU}{index.html}, nofooter
+==Hongyu Zheng
 
 ~~~
-{}{img_left}{pic/wujian.jpg}{alt text}{200}{158}
-Undergraduate Student,\n [http://www.imse.hku.hk Department of Industrial and Manufacturing Systems Engineering], \n[http://www.hku.hk the University of Hong Kong (HKU)]\n
-Hong Kong Island, Hong Kong \n 
-Phone: \+852 5495 9194 \n
-Email: /ricardo8/ \[@\] hku \[DOT\] hk
+{}{img_left}{pic/hongyu.jpg}{alt text}{120}{160}
+Master Student,\n 
+[http://www.ccea.zju.edu.cn/cceaenglish College of Civil Engineering and Architecture],\n
+[http://www.zju.edu.cn/english Zhejiang University]\n
+Hangzhou, China \n 
+Email: [zhenghongyu@zju.edu.cn]\n
 ~~~
 
 == About me
-I am a senior undergraduate student in Industrial Engineering from Department of Industrial and Manufacturing Systems Engineering ([http://www.imse.hku.hk IMSE]), the University of Hong Kong ([http://www.hku.hk HKU]).   
+I am a final-year graduate student majoring in Transportation at [http://www.zju.edu.cn/english/ Zhejiang University] (expect to graduate in June, 2019), and I am very fortunate to be advised by [https://person.zju.edu.cn/en/xiqun Prof. Xiqun (Michael) Chen]. Before that, I received my B.Eng. in Civil Engineering from the same school in July, 2016. During the Fall of 2017, I was a full-time algorithm engineer intern in [http://research.xiaojukeji.com/index.html DiDi Research].
 
-== Education
-*The University of Hong Kong*, /Sept 2015 - Jun 2019/\n
-B.Eng Industrial Engineering, Minor Computer Science (First Honor), 3.7/4.0
-
-*The University of Wisconsin-Madison*, /Jan - May 2018/\n
-International Academic Programs (IAP), 4.0/4.0
+~~~
+Currently, I am applying for 19fall Ph.D. program in US. If you want to know about me, please e-mail me and ask for my resume.
+~~~
 
 == Research
-My research interests are queueing theory, stochastic programming, fluid models, and their applications in planning and revenue management of supply chain, transport and energy systems. In particular, I am working on
-- Service planning for EV sharing
-- Dynamic pricing in sharing systems
-- Transportation systems
+My research interests are transportation economics, transportation network modeling and optimization. In particular, I am working on
+. Economical analysis of ride-sourcing market
+. Shared mobility's impact on current transportation system
+. Diverse AI applications in transportation system analysis
+.. Machine Learningc for short-term traffic speed prediction
+.. Deep Learning to forecast the passenger demand over an on-demand ride service
+.. Reinforcement Learning to keep passenger-car matching process high efficiency
 
-
-[projects.html Find out more].
-
-
-\n
-[doc/cv.pdf A brief cv].
+[/publications.html Publication list] and [/research.html research detail].

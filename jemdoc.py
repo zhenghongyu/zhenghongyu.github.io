@@ -467,12 +467,13 @@ def pc(f, ditchcomments=True):
 def doincludes(f, l):
   ir = 'includeraw{'
   i = 'include{'
+  l = l.rstrip()
   if l.startswith(ir):
-    nf = io.open(l[len(ir):-2], 'rb')
-    f.outf.write(nf.read())
+    nf = io.open(l[len(ir):-1], 'rb')
+    f.outf.write(nf.read().decode('utf-8'))
     nf.close()
   elif l.startswith(i):
-    f.pushfile(l[len(i):-2])
+    f.pushfile(l[len(i):-1])
   else:
     return False
 
@@ -549,9 +550,9 @@ def np(f, withcount=False, eatblanks=True):
 
   # in both cases, ditch the trailing \n.
   if withcount:
-    return (s[:-1], c)
+    return (s, c)
   else:
-    return s[:-1]
+    return s
 
 def quote(s):
   return re.sub(r"""[\\*/+"'<>&$%\.~[\]-]""", r'\\\g<0>', s)
@@ -1626,7 +1627,7 @@ def main():
     else:
       thisout = outname
 
-    infile = io.open(inname, 'rUb')
+    infile = io.open(inname, 'rb')
     outfile = io.open(thisout, 'w')
 
 #    print(infile.read())

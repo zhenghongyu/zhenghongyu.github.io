@@ -1,0 +1,8 @@
+cheat sheet
+http://jemdoc.jaboc.net/example.html
+
+install
+https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled
+
+run
+jemdoc -c mysite.conf *.jemdoc

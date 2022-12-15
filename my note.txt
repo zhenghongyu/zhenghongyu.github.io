@@ -6,6 +6,7 @@ https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-roo
 
 run
 jemdoc -c mysite.conf *.jemdoc
+python jemdoc.py -c mysite.conf index.jemdoc
 
 map
 </table>

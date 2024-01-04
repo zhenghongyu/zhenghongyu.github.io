@@ -1,5 +1,6 @@
 cheat sheet
 http://jemdoc.jaboc.net/example.html
+https://wbhu.net/jemdoc
 
 install
 https://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled
